@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.input-box.my-info {
+  margin-bottom: 100px;
+}
+
+.input-box.my-info .input-box__tit:not(:first-child) {
+  margin-top: 100px;
+}
+
+.input-box.my-info .input-box__input .btn-normal {
+  float: right;
+  margin: 0;
+  padding: 0 25px;
+}
+
+.pay-table {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.product-list {
+  width: 1070px;
+  margin: 0 auto;
+  height: 460px;
+  padding: 20px 0 30px;
+}
+
+.product-list__item {
+  padding: 25px;
+  border-radius: 7px;
+  width: 260px;
+  float: left;
+  border: 1px solid #dddde5;
+  margin-right: 10px;
+}
+
+.product-list__item.use {
+  border: 2px solid #229f96;
+  -webkit-box-shadow: 0 2px 5px rgba(34, 159, 150, 0.3);
+          box-shadow: 0 2px 5px rgba(34, 159, 150, 0.3);
+  position: relative;
+  border-radius: 0 0 7px 7px;
+}
+
+.product-list__item.use:after {
+  content: '현재 사용 중인 요금제';
+  display: block;
+  width: calc(100% + 4px);
+  height: 40px;
+  color: #fff;
+  background: #229f96;
+  position: absolute;
+  left: -2px;
+  top: -40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px 10px 0 0;
+}
+
+.product-list__item .name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #229f96;
+  margin-bottom: 20px;
+}
+
+.product-list__item .price {
+  color: #4d4d57;
+  margin-bottom: 20px;
+}
+
+.product-list__item .price .month {
+  color: #828291;
+  display: block;
+}
+
+.product-list__item .price .num {
+  font-size: 46px;
+  font-weight: 300;
+  margin-right: 5px;
+}
+
+.product-list__item .intro {
+  width: calc(100% + 50px);
+  background: #e8f5f4;
+  color: #229f96;
+  line-height: 1.5;
+  position: relative;
+  left: -25px;
+  padding: 15px 20px 30px;
+  margin-bottom: 35px;
+}
+
+.product-list__item .intro button {
+  position: absolute;
+  left: 20px;
+  bottom: -15px;
+}
+
+.product-list__item .intro-list__item {
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #828291;
+  text-indent: 20px;
+  background: url(../images/icon/check_sm_round_primary.png) no-repeat;
+}
+
+.product-list__item .intro-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.product-list__item:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=user.css.map */
